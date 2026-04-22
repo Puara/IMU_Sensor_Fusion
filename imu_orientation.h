@@ -42,7 +42,7 @@
 
 class IMU_Orientation {
   public:
-    IMU_Orientation(): quaternion(1,0,0,0){}
+    IMU_Orientation(): quaternion(1,0,0,0)
     {
         accel.x = accel.y = accel.z = accel.magnitude = sfFloat(0);
         gyro.x = gyro.y = gyro.z = gyro.magnitude = sfFloat(0);
